@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeLeaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration form</title>
+</head>
+<body>
+
+	<Form th:action="@{/registerUser}" method="post">
+
+		<Label>Username</Label><input type="text"></input>
+		<Label>Email Id</Label><input type="text"></input>
+		<Label>Contact</Label><input type="number" size="10"></input>
+		<Label>Date of Birth</Label><input type="date"></input>
+		<label>Password</label><input type="text"></input>
+		<input type="submit"> <input type="reset">
+	</Form>
+
+</body>
+</html>
